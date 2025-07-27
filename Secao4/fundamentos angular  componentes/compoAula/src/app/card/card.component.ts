@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
+  card = {
+    infos: {
+      tipo: "Simples",
+      preco: 100
+
+    }
+
+  };
+
 }
