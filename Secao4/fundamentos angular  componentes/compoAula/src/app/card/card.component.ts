@@ -1,5 +1,15 @@
 import { Component } from '@angular/core';
 
+
+interface Icards {
+
+  infos: Iinfos;
+}
+
+interface Iinfos {
+  nome: string, valor: number;
+}
+
 @Component({
   selector: 'app-card',
   standalone: false,
@@ -8,13 +18,15 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
-  card = {
+  //@ts-ignore
+  card: Icards = {
     infos: {
-      tipo: "Simples",
-      preco: 100
-
+      nome: "teste",
+      valor: 100
     }
+  }
+    
 
-  };
+  
 
 }
