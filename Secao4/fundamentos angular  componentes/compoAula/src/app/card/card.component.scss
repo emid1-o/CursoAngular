@@ -22,3 +22,9 @@
 
     
 }
+
+//muda cor da barra dos sliders de ambos os cards
+:host ::ng-deep mat-slider .mdc-slider__track--active_fill  {
+
+     border-color: black !important; 
+ }

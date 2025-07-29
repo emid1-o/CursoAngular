@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 
 interface Icards {
@@ -14,7 +14,8 @@ interface Iinfos {
   selector: 'app-card',
   standalone: false,
   templateUrl: './card.component.html',
-  styleUrl: './card.component.scss'
+  styleUrl: './card.component.scss',
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class CardComponent {
 
