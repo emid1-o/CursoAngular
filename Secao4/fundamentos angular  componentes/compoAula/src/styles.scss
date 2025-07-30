@@ -1,4 +1,10 @@
 //importado pra nao deixar bagunçado o styles global
 @import "../src/app/styles/global-overrides";
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: bisque;}
+
+mat-slider.custom-slider .mdc-slider__track--active_fill {
+    border-color: red !important;
+}
+
+
