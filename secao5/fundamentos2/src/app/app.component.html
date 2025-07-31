@@ -1,0 +1,9 @@
+<!-- Entre colchetes pra mandar valor, entre parenteses pra receber-->
+<input class="meu-input"
+ [value]="inputText"
+ [type]="inputType"
+ [disabled]="inputDisable"
+ (keyup)="handleKeyUp($event)">
+<button (click)="inputTurn()">Ativar</button>
+<br>
+<button (click)="mudaTexto()">Texto</button>
