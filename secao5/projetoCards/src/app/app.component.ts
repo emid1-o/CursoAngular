@@ -11,4 +11,8 @@ export class AppComponent {
   buttonClicked(){
     console.log('Botão clicado');
   }
+
+  onCardButtonClicked(){
+    console.log('cardbuttonclicked')
+  }
 }
