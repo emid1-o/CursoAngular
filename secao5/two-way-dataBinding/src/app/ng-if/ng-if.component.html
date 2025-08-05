@@ -1,0 +1,5 @@
+<div style="background-color: green;" *ngIf="divOn; else meuTemplate">Soum uma div</div>
+<ng-template #meuTemplate>
+    <div style="background-color: rgb(128, 0, 68);">Soum uma outra div</div>
+</ng-template>
+<button (click)="toggleProp()">Clicar</button>
